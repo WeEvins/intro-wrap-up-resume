@@ -1,0 +1,68 @@
+body {
+color: #685a6b;
+font-size: 16px;
+background-color: #e0ecec;
+margin-left: 100px;
+}
+.nameLogo, .tagline {
+    color:#733d61;
+} 
+
+.tagcontainer{
+    position: relative;
+}
+.navheader{
+    position: relative;
+    height: 20px;
+    width: 1200px;
+}
+
+.nav {
+    position: absolute;
+    
+}
+
+.greet {
+    position: relative;
+    height: 500px;
+    width: 1200px;
+}
+
+.intro {
+    position: relative;
+    background-color: #bbdbe8;
+    height: 500px;
+    width: 1200px;
+    
+}
+.hellocontainer {
+    position: absolute;
+    text-align: left;
+    
+}
+.mybio {
+    position: absolute;
+    border: 5px;
+    border-color: #733d61;
+    border-style: solid;
+
+}
+
+.experience {
+    position: relative;
+    height: 500px;
+    width: 1200px;
+   
+}
+
+.work {
+    position: absolute;
+    height: 500px;
+    width: 1200px;
+    
+}
+
+.swishcontainer, .instacontainer {
+    max-width: 50px;
+    height: 100%;
+}
