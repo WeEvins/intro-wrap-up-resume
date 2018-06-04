@@ -2,42 +2,80 @@ body {
 color: #685a6b;
 font-size: 16px;
 background-color: #e0ecec;
-margin-left: 100px;
+margin-left:  10.5rem;
 }
-.nameLogo, .tagline {
+
+.nameLogo {
+    color:#733d61;
+    border-style: solid;
+    border-color: #685a6b;
+    height: auto;
+    width: 12rem;
+    text-align: center;
+} 
+
+.imgcontainer {
+    margin-left:5rem;
+
+}
+
+.tagline {
     color:#733d61;
 } 
 
-.tagcontainer{
+.tagcontainer {
     position: relative;
+    margin-left: 17rem;
+    margin-top: -9rem;
+    font-size: 2rem;
 }
+
+.localcontainer{
+    position: relative;
+    margin-left: 17rem;
+    margin-top: -2.5rem;
+    font-size: 2rem;
+}
+
 .navheader{
     position: relative;
-    height: 20px;
-    width: 1200px;
+    height: 20rem;
+    width: 65rem;
 }
 
 .nav {
     position: absolute;
+    margin-left: 50rem;
     
 }
 
 .greet {
     position: relative;
-    height: 500px;
-    width: 1200px;
+    height: 25rem;
+    width: 65rem;
+    margin-top: 5rem;
 }
+
 
 .intro {
     position: relative;
     background-color: #bbdbe8;
-    height: 500px;
-    width: 1200px;
+    height: 20rem;
+    width: 72rem;
+    align-content: center;
+    
     
 }
 .hellocontainer {
-    position: absolute;
-    text-align: left;
+    position: relative;
+    text-align: right;
+    height: 10rem;
+    width: 20rem;
+    display: inline-block;
+    margin-left: 9rem;
+    margin-right: 2.5rem;
+    margin-top: 3.5rem;
+
     
 }
 .mybio {
@@ -45,20 +83,46 @@ margin-left: 100px;
     border: 5px;
     border-color: #733d61;
     border-style: solid;
-
+    height: 11rem;
+    width: 28rem;
+    display: inline-block;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    margin-top: 3.5rem;
 }
+
+.hellocontainer h2 {
+    font-size: 3.5rem;
+    margin-bottom: 0;
+}
+
+
 
 .experience {
     position: relative;
-    height: 500px;
-    width: 1200px;
-   
+    height: 35rem;
+    width: 65rem;
+    margin-left: 7rem;
+}
+
+.previous {
+    display: inline-block;
+    height: 10rem;
+    width: 25rem;
+    margin-right: 6rem;
+}
+
+.previous h6 {
+    font-size: 2rem;
+    border-bottom: solid;
 }
 
 .work {
     position: absolute;
-    height: 500px;
-    width: 1200px;
+    height: 35rem;
+    width: 65rem;
+    display: inline-block;
     
 }
 
